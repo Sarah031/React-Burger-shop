@@ -55,16 +55,17 @@ const OrderDetails = () => {
         <div>
           <h1>Amount</h1>
           <p>
-            <b>Items Total</b>₹{2132}
+            <b>Items Total</b>€{35}
           </p>
           <p>
-            <b>Shipping Charges</b>₹{200}
+            <b>Shipping Charges</b>€{2}
           </p>
           <p>
-            <b>Tax</b>₹{232}
+            <b>Tax</b>
+            {5}
           </p>
           <p>
-            <b>Total Amount</b>₹{232 + 200 + 2132}
+            <b>Total Amount</b>€{37}
           </p>
         </div>
         <article>
@@ -72,19 +73,19 @@ const OrderDetails = () => {
           <div>
             <h4>Cheese Burger</h4>
             <div>
-              <span>{12}</span> x <span>{232}</span>
+              <span>{1}</span> x <span>{10}</span>
             </div>
           </div>
           <div>
             <h4>Veg Cheese Burger</h4>
             <div>
-              <span>{10}</span> x <span>{500}</span>
+              <span>{1}</span> x <span>{8}</span>
             </div>
           </div>
           <div>
             <h4>Burger Fries</h4>
             <div>
-              <span>{10}</span> x <span>{1800}</span>
+              <span>{2}</span> x <span>{6}</span>
             </div>
           </div>
           <div>
@@ -100,7 +101,7 @@ const OrderDetails = () => {
                 fontWeight: 800,
               }}
             >
-              ₹{2132}
+              €{37}
             </div>
           </div>
         </article>

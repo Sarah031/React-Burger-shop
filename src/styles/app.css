@@ -41,7 +41,7 @@ a {
   margin: 0 1rem;
 }
 .notFound > main > a {
-  background-color: rgb(255, 159, 196);
+  background-color: rgb(156, 0, 60);
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 5px;
@@ -67,4 +67,4 @@ a {
 }
 .loader > div {
   font-size: 2rem;
-} /*# sourceMappingURL=app.css.map */
+}/*# sourceMappingURL=app.css.map */

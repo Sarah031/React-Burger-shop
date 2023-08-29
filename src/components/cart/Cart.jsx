@@ -46,19 +46,19 @@ const Cart = () => {
         <article>
           <div>
             <h4>Sub Total</h4>
-            <p>₹{2000}</p>
+            <p>€{30}</p>
           </div>
           <div>
             <h4>Tax</h4>
-            <p>₹{2000 * 0.18}</p>
+            <p>€ {Math.round(30 * 0.18).toFixed(2)}</p>
           </div>
           <div>
             <h4>Shipping Charges</h4>
-            <p>₹{200}</p>
+            <p>€{2}</p>
           </div>{" "}
           <div>
             <h4>Total</h4>
-            <p>₹{2000 + 2000 * 0.18 + 200}</p>
+            <p>€{Math.round(30 * 0.18 + 30 + 2).toFixed(2)}</p>
           </div>
           <Link to="/shipping">Checkout</Link>
         </article>
