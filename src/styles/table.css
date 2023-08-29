@@ -1,0 +1,58 @@
+.tableClass {
+  background-color: rgb(255, 239, 239);
+  width: 100%;
+  height: 100vh;
+}
+.tableClass main {
+  max-width: 900px;
+  background-color: white;
+  margin: auto;
+  height: 100%;
+  padding: 2rem;
+  overflow-x: auto;
+}
+.tableClass main > table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+.tableClass main > table tr {
+  background-color: whitesmoke;
+}
+.tableClass main > table tr:last-child td:first-child {
+  border-radius: 0 0 0 10px;
+}
+.tableClass main > table tr:last-child td:last-child {
+  border-radius: 0 0 10px 0;
+}
+.tableClass main > table td,
+.tableClass main > table th {
+  padding: 1rem;
+}
+.tableClass main > table th {
+  background-color: rgb(33, 33, 33);
+  color: white;
+}
+.tableClass main > table th:first-child {
+  border-radius: 10px 0 0 0;
+}
+.tableClass main > table th:last-child {
+  border-radius: 0 10px 0 0;
+}
+.tableClass main > table td {
+  color: rgba(33, 33, 33, 0.711);
+}
+.tableClass main > table td > img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+.tableClass main > table td > a {
+  color: rgb(156, 0, 60);
+}
+.tableClass main > table td > button {
+  border: none;
+  cursor: pointer;
+  margin: 0.25rem;
+  color: rgb(156, 0, 60);
+}/*# sourceMappingURL=table.css.map */

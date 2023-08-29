@@ -1,0 +1,65 @@
+.orderDetails {
+  background-color: rgb(255, 239, 239);
+  width: 100%;
+}
+.orderDetails > main {
+  background-color: white;
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  overflow-x: auto;
+}
+.orderDetails > main > h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font: 100 3rem "Roboto";
+  margin: 3rem;
+}
+.orderDetails > main > div {
+  margin: 2rem 0;
+  text-align: center;
+}
+.orderDetails > main > div > h1 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.orderDetails > main > div > p {
+  font-weight: 200;
+  white-space: nowrap;
+  letter-spacing: 2px;
+  margin: 2rem;
+}
+.orderDetails > main > div > p > b {
+  margin-right: 5px;
+}
+.orderDetails > main > article > h1 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 2rem 0;
+}
+.orderDetails > main > article > div {
+  background-color: rgb(246, 246, 246);
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.orderDetails > main > article > div > h4 {
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 600px) {
+  .orderDetails > main > div > h1 {
+    font-size: 1.4rem;
+  }
+  .orderDetails > main > div > p {
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    margin: 2rem 0;
+  }
+}/*# sourceMappingURL=orderDetails.css.map */
