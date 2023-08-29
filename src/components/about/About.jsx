@@ -1,4 +1,3 @@
-// Write all the code here
 import React from "react";
 import { Link } from "react-router-dom";
 import { RiFindReplaceLine } from "react-icons/ri";
